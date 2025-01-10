@@ -1,0 +1,6 @@
+<h1>HOA Blog</h1>
+{% for post in posts %}
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.content }}</p>
+    <small>{{ post.created_at }}</small>
+{% endfor %}
